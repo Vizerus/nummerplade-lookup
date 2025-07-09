@@ -50,7 +50,7 @@ Hey! This is a little project for looking up license plates and getting smart su
 - If you edit `license_data.json` by hand, restart the backend.
 - The backend has to be running for suggestions and feedback to work.
 - The project was tested on danish plates using MotorAPI, you will need to get a key here -> https://www.motorapi.dk/
-- Once you obtain a key just add it to #
+- Once you obtain a key just add it to the X-AUTH-TOKEN on line 70 in `script.js`
 
 ## What's what
 - `app.py` — Python backend
