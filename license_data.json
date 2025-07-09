@@ -1,0 +1,438 @@
+{
+    "plates": {
+        "DZ14862": {
+            "valid_count": 95,
+            "total_count": 95
+        },
+        "DF71743": {
+            "valid_count": 2,
+            "total_count": 2
+        },
+        "DZ14861": {
+            "valid_count": 13,
+            "total_count": 13
+        },
+        "CX63655": {
+            "valid_count": 2,
+            "total_count": 2
+        },
+        "DY14715": {
+            "valid_count": 8,
+            "total_count": 8
+        },
+        "AK25750": {
+            "valid_count": 1,
+            "total_count": 1
+        },
+        "AS68681": {
+            "valid_count": 2,
+            "total_count": 2
+        }
+    },
+    "searches": [
+        {
+            "plate": "DZ14862",
+            "valid": true,
+            "timestamp": "2025-03-12T11:24:37.241140"
+        },
+        {
+            "plate": "DF71743",
+            "valid": true,
+            "timestamp": "2025-03-12T10:44:49.476646"
+        },
+        {
+            "plate": "DZ14861",
+            "valid": true,
+            "timestamp": "2025-03-12T08:24:55.311236"
+        },
+        {
+            "plate": "CX63655",
+            "valid": true,
+            "timestamp": "2025-03-12T10:45:12.660618"
+        },
+        {
+            "plate": "DY14715",
+            "valid": true,
+            "timestamp": "2025-03-12T10:47:46.700037"
+        },
+        {
+            "plate": "AK25750",
+            "valid": true,
+            "timestamp": "2025-03-12T08:24:10.899319"
+        },
+        {
+            "plate": "AS68681",
+            "valid": true,
+            "timestamp": "2025-03-12T10:44:58.575840"
+        }
+    ],
+    "cached_car_data": {
+        "DZ14862": {
+            "registration_number": "DZ14862",
+            "status": "Registreret",
+            "status_date": "2024-05-06T14:11:00.000+02:00",
+            "type": "Personbil",
+            "use": "Privat personk\u00f8rsel",
+            "first_registration": "2004-08-06+02:00",
+            "vin": "MA3FFB21S00323348",
+            "own_weight": 775,
+            "cerb_weight": null,
+            "total_weight": 1175,
+            "axels": 2,
+            "pulling_axels": 1,
+            "seats": 0,
+            "coupling": false,
+            "trailer_maxweight_nobrakes": null,
+            "trailer_maxweight_withbrakes": null,
+            "doors": null,
+            "make": "SUZUKI",
+            "model": "ALTO",
+            "variant": "1,1 L",
+            "model_type": "UOPLYST",
+            "model_year": 0,
+            "color": "Ukendt",
+            "chassis_type": "",
+            "engine_cylinders": 0,
+            "engine_volume": 0,
+            "engine_power": 0,
+            "fuel_type": "Benzin",
+            "is_hybrid": false,
+            "hybrid_type": "mild",
+            "registration_zipcode": "",
+            "vehicle_id": 1025401200415745,
+            "mot_info": {
+                "type": "PeriodiskSyn",
+                "date": "2023-08-19",
+                "result": "Godkendt",
+                "status": "Aktiv",
+                "status_date": "2023-08-19",
+                "mileage": 215000
+            },
+            "is_leasing": false,
+            "leasing_from": null,
+            "leasing_to": null
+        },
+        "DF71743": {
+            "registration_number": "DF71743",
+            "status": "Registreret",
+            "status_date": "2021-12-30T23:21:53.000+01:00",
+            "type": "Personbil",
+            "use": "Privat personk\u00f8rsel",
+            "first_registration": "2021-12-30+01:00",
+            "vin": "LRW3E7EC5MC420056",
+            "own_weight": null,
+            "cerb_weight": 1919,
+            "total_weight": 2232,
+            "axels": 2,
+            "pulling_axels": 2,
+            "seats": 5,
+            "coupling": false,
+            "trailer_maxweight_nobrakes": 0,
+            "trailer_maxweight_withbrakes": 0,
+            "doors": 4,
+            "make": "TESLA",
+            "model": "Model 3",
+            "variant": "Long Range Performance",
+            "model_type": "003",
+            "model_year": 2021,
+            "color": "Hvid",
+            "chassis_type": "Sedan",
+            "engine_cylinders": 0,
+            "engine_volume": 0,
+            "engine_power": 377,
+            "fuel_type": "El",
+            "is_hybrid": false,
+            "hybrid_type": null,
+            "registration_zipcode": "",
+            "vehicle_id": 9000000004303289,
+            "mot_info": {
+                "type": "",
+                "date": null,
+                "result": "",
+                "status": "",
+                "status_date": null,
+                "mileage": 0
+            },
+            "is_leasing": false,
+            "leasing_from": null,
+            "leasing_to": null
+        },
+        "DZ14861": {
+            "registration_number": "DZ14861",
+            "status": "Registreret",
+            "status_date": "2024-05-06T12:45:17.000+02:00",
+            "type": "Personbil",
+            "use": "Privat personk\u00f8rsel",
+            "first_registration": "2007-04-20+02:00",
+            "vin": "VF1JK0ECC37116003",
+            "own_weight": 2095,
+            "cerb_weight": 2165,
+            "total_weight": 2665,
+            "axels": 2,
+            "pulling_axels": 1,
+            "seats": 7,
+            "coupling": true,
+            "trailer_maxweight_nobrakes": 750,
+            "trailer_maxweight_withbrakes": 1585,
+            "doors": null,
+            "make": "RENAULT",
+            "model": "ESPACE",
+            "variant": "3,0 DCI V6 AUT.",
+            "model_type": "K",
+            "model_year": 0,
+            "color": "Ukendt",
+            "chassis_type": "",
+            "engine_cylinders": 0,
+            "engine_volume": 2958,
+            "engine_power": 133,
+            "fuel_type": "Diesel",
+            "is_hybrid": false,
+            "hybrid_type": "mild",
+            "registration_zipcode": "",
+            "vehicle_id": 1021601200710980,
+            "mot_info": {
+                "type": "RegistreringsSyn",
+                "date": "2023-09-21",
+                "result": "Godkendt",
+                "status": "Aktiv",
+                "status_date": "2023-09-21",
+                "mileage": 209000
+            },
+            "is_leasing": false,
+            "leasing_from": null,
+            "leasing_to": null
+        },
+        "CX63655": {
+            "registration_number": "CX63655",
+            "status": "Registreret",
+            "status_date": "2023-11-10T11:14:43.000+01:00",
+            "type": "Personbil",
+            "use": "Privat personk\u00f8rsel",
+            "first_registration": "2001-08-03+02:00",
+            "vin": "WVWZZZ1JZ1W681433",
+            "own_weight": 1175,
+            "cerb_weight": null,
+            "total_weight": 1750,
+            "axels": 2,
+            "pulling_axels": 1,
+            "seats": 0,
+            "coupling": true,
+            "trailer_maxweight_nobrakes": 600,
+            "trailer_maxweight_withbrakes": 1400,
+            "doors": 4,
+            "make": "VOLKSWAGEN",
+            "model": "GOLF",
+            "variant": "2,0",
+            "model_type": "UOPLYST",
+            "model_year": 0,
+            "color": "Ukendt",
+            "chassis_type": "Hatchback",
+            "engine_cylinders": 4,
+            "engine_volume": 0,
+            "engine_power": 0,
+            "fuel_type": "Benzin",
+            "is_hybrid": false,
+            "hybrid_type": "mild",
+            "registration_zipcode": "",
+            "vehicle_id": 1027901200120613,
+            "mot_info": {
+                "type": "RegistreringsSyn",
+                "date": "2023-11-10",
+                "result": "Godkendt",
+                "status": "Aktiv",
+                "status_date": "2023-11-10",
+                "mileage": null
+            },
+            "is_leasing": false,
+            "leasing_from": null,
+            "leasing_to": null
+        },
+        "DY14715": {
+            "registration_number": "DY14715",
+            "status": "Registreret",
+            "status_date": "2023-11-17T09:45:51.000+01:00",
+            "type": "Personbil",
+            "use": "Privat personk\u00f8rsel",
+            "first_registration": "2015-01-19+01:00",
+            "vin": "VF30U9HD8ES140593",
+            "own_weight": null,
+            "cerb_weight": 1496,
+            "total_weight": 2030,
+            "axels": 2,
+            "pulling_axels": 1,
+            "seats": 5,
+            "coupling": true,
+            "trailer_maxweight_nobrakes": 745,
+            "trailer_maxweight_withbrakes": 1090,
+            "doors": 4,
+            "make": "PEUGEOT",
+            "model": "3008",
+            "variant": "1.6 HDi Crossover",
+            "model_type": "0U",
+            "model_year": 2014,
+            "color": "Brun",
+            "chassis_type": "MPV",
+            "engine_cylinders": 4,
+            "engine_volume": 1560,
+            "engine_power": 84,
+            "fuel_type": "Diesel",
+            "is_hybrid": false,
+            "hybrid_type": "mild",
+            "registration_zipcode": "",
+            "vehicle_id": 9000000001043791,
+            "mot_info": {
+                "type": "RegistreringsSyn",
+                "date": "2023-11-17",
+                "result": "Godkendt",
+                "status": "Aktiv",
+                "status_date": "2023-11-17",
+                "mileage": 112000
+            },
+            "is_leasing": false,
+            "leasing_from": null,
+            "leasing_to": null
+        },
+        "AK25750": {
+            "registration_number": "AK25750",
+            "status": "Registreret",
+            "status_date": "2023-03-28T14:50:54.000+02:00",
+            "type": "Personbil",
+            "use": "Privat personk\u00f8rsel",
+            "first_registration": "1967-12-31+01:00",
+            "vin": "GHN3L101400",
+            "own_weight": 871,
+            "cerb_weight": 920,
+            "total_weight": 1102,
+            "axels": 2,
+            "pulling_axels": 1,
+            "seats": 0,
+            "coupling": false,
+            "trailer_maxweight_nobrakes": null,
+            "trailer_maxweight_withbrakes": null,
+            "doors": null,
+            "make": "MG",
+            "model": "B",
+            "variant": "1,8",
+            "model_type": "UOPLYST",
+            "model_year": 0,
+            "color": "Ukendt",
+            "chassis_type": "",
+            "engine_cylinders": 0,
+            "engine_volume": 0,
+            "engine_power": 0,
+            "fuel_type": "Benzin",
+            "is_hybrid": false,
+            "hybrid_type": "mild",
+            "registration_zipcode": "",
+            "vehicle_id": 1017101196710155,
+            "mot_info": {
+                "type": "PeriodiskSyn",
+                "date": "2024-06-27",
+                "result": "Godkendt",
+                "status": "Aktiv",
+                "status_date": "2024-06-27",
+                "mileage": 16000
+            },
+            "is_leasing": false,
+            "leasing_from": null,
+            "leasing_to": null
+        },
+        "AS68681": {
+            "registration_number": "AS68681",
+            "status": "Registreret",
+            "status_date": "2015-03-10T14:04:02.000+01:00",
+            "type": "Personbil",
+            "use": "Privat personk\u00f8rsel",
+            "first_registration": "2004-06-21+02:00",
+            "vin": "TSMMMA33S00291312",
+            "own_weight": 950,
+            "cerb_weight": null,
+            "total_weight": 1450,
+            "axels": 2,
+            "pulling_axels": 1,
+            "seats": 0,
+            "coupling": true,
+            "trailer_maxweight_nobrakes": 350,
+            "trailer_maxweight_withbrakes": 800,
+            "doors": 5,
+            "make": "SUZUKI",
+            "model": "WAGON R",
+            "variant": "1,3",
+            "model_type": "UOPLYST",
+            "model_year": 0,
+            "color": "Ukendt",
+            "chassis_type": "Stationcar",
+            "engine_cylinders": 4,
+            "engine_volume": 0,
+            "engine_power": 0,
+            "fuel_type": "Benzin",
+            "is_hybrid": false,
+            "hybrid_type": "mild",
+            "registration_zipcode": "",
+            "vehicle_id": 1025401200414572,
+            "mot_info": {
+                "type": "PeriodiskSyn",
+                "date": "2023-02-16",
+                "result": "Godkendt",
+                "status": "Aktiv",
+                "status_date": "2023-02-16",
+                "mileage": 180000
+            },
+            "is_leasing": false,
+            "leasing_from": null,
+            "leasing_to": null
+        }
+    },
+    "interests": {
+        "makes": {},
+        "fuel_types": {},
+        "models": {},
+        "years": {}
+    },
+    "feedback": {
+        "DZ14862": [
+            {
+                "relevant": true,
+                "timestamp": "2025-03-12T10:43:16.711474"
+            }
+        ],
+        "DZ14861": [
+            {
+                "relevant": false,
+                "timestamp": "2025-03-12T10:43:24.821451"
+            }
+        ],
+        "DF71743": [
+            {
+                "relevant": true,
+                "timestamp": "2025-03-12T10:44:51.388181"
+            }
+        ],
+        "AS68681": [
+            {
+                "relevant": true,
+                "timestamp": "2025-03-12T10:44:59.968853"
+            }
+        ],
+        "DY14715": [
+            {
+                "relevant": false,
+                "timestamp": "2025-03-12T10:45:07.254884"
+            },
+            {
+                "relevant": true,
+                "timestamp": "2025-03-12T10:47:39.007796"
+            },
+            {
+                "relevant": true,
+                "timestamp": "2025-03-12T10:47:47.933902"
+            }
+        ],
+        "CX63655": [
+            {
+                "relevant": true,
+                "timestamp": "2025-03-12T10:45:13.905451"
+            }
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>License Plate Lookup with ML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2/dist/tesseract.min.js"></script>
+</head>
+<body>
+    <div id="formAndHistoryContainer">
+        <form id="licenseForm">
+            <label for="license">Type in your license plate:</label><br>
+            <input type="text" id="license" name="license"><br>
+            <!-- Suggestions will be inserted here by JavaScript -->
+            <label for="licenseImage">Or upload an image of your license plate:</label><br>
+            <input type="file" id="licenseImage" name="licenseImage"><br>
+            <div id="buttonAndProgressContainer">
+                <div id="progress" style="display: none;">
+                    <p id="progressText">Loading</p>
+                </div>
+                <button type="button" id="recognizeButton">Recognize Text From Image</button>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="searchHistoryContainer">
+            <h3>Search History</h3>
+            <ul id="searchHistoryList"></ul>
+        </div>
+    </div>
+    <p id="error"></p>
+    <div id="carInfo"></div>
+    <button id="forgetPreferencesButton">Forget Preferences</button>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

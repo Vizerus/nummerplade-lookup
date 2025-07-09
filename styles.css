@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#formAndHistoryContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+#licenseForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #333;
+}
+
+input[type="text"], input[type="file"] {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    width: 250px;
+}
+
+input[type="submit"], #recognizeButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, #recognizeButton:hover {
+    background-color: #444;
+}
+
+#searchHistoryContainer {
+    width: 200px;
+}
+
+#searchHistoryContainer h3 {
+    text-align: center;
+}
+
+#error {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%; /* Set table width to 50% */
+    margin: 20px auto; /* Center the table horizontally */
+    table-layout: fixed;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    word-wrap: break-word;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td:first-child {
+    width: 50%;
+}
+
+#buttonAndProgressContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchHistoryList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#searchHistoryList li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#searchHistoryList li:hover {
+    background-color: #f0f0f0;
+}
+
+#carInfo {
+    display: flex;
+    justify-content: center;
+}
+
+#suggestions {
+    position: relative;
+    width: 300px;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-top: 5px;
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    cursor: pointer;
+}
+
+.suggestion-item:first-child {
+    border-top: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.suggestion-item:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+#forgetPreferencesButton {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+#forgetPreferencesButton:hover {
+    background-color: #444;
+}
+
+#feedbackPrompt {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 200px; /* Make the feedback popup slimmer */
+    text-align: center; /* Center the text */
+}
+
+#feedbackPrompt p {
+    margin: 0 0 10px 0;
+}
+
+#feedbackPrompt .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#feedbackPrompt button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#feedbackPrompt button:last-child {
+    margin-right: 0;
+}
+
+#feedbackPrompt button:hover {
+    background-color: #444;
+}
+
+#feedbackPrompt .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#feedbackPrompt .close-button:hover {
+    color: #444;
+}
